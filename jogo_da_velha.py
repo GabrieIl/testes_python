@@ -52,7 +52,7 @@ def verifica_vencedor(tabuleiro):
 
 
 def desenha_tabuleiro(linha, tabuleiro, jogada, contador, mensagem, vencedor=0):
-    # system("clear")
+    system("clear")
     if contador != 0:
         if tabuleiro[jogada[0]][jogada[1]] != " ":
             mensagem = "Já está ocupado otário."
